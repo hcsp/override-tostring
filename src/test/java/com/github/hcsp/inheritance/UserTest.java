@@ -12,7 +12,7 @@ public class UserTest {
         int id = new Random().nextInt(1000);
         String name = UUID.randomUUID().toString();
         String userString = new User(id, name).toString();
-        Assertions.assertTrue(userString.contains(id));
+        Assertions.assertTrue(userString.contains("" + id));
         Assertions.assertTrue(userString.contains(name));
     }
 
