@@ -17,6 +17,14 @@ public class User {
         return name;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
     public static void main(String[] args) {
         System.out.println(new User(1, "user1"));
     }
