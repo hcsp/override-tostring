@@ -8,9 +8,7 @@ public class User {
         this.id = id;
         this.name = name;
     }
-    public String hh(){
-        return name.toString();
-    }
+
     public Integer getId() {
         return id;
     }
@@ -24,9 +22,5 @@ public class User {
     }
 
     // 请在这里覆盖toString方法，使得在打印用户时能将用户的id和name打印出来
-    @Override
-    public String toString() {
-        return this.id.toString() + this.name;
-    }
 
 }
