@@ -9,11 +9,6 @@ public class User {
         this.name = name;
     }
 
-    @Override
-    public String toString(){
-        return "id: "+(this.id==null?"":this.id+"")+", name: "+(this.name==null?"":this.name+"");
-    }
-
     public Integer getId() {
         return id;
     }
