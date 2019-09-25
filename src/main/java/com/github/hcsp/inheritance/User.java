@@ -17,11 +17,6 @@ public class User {
         return name;
     }
 
-    @Override
-    public String toString() {
-        return  getId() + "@" + getName();
-    }
-
     public static void main(String[] args) {
         System.out.println(new User(1, "user1"));
     }
