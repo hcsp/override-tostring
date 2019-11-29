@@ -1,10 +1,8 @@
 package com.github.hcsp.inheritance;
 
 import com.github.hcsp.test.helper.ProjectSourceFileReader;
-
 import java.util.Random;
 import java.util.UUID;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
