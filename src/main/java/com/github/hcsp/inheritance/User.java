@@ -1,7 +1,5 @@
 package com.github.hcsp.inheritance;
 
-import java.lang.String;
-
 public class User {
     private Integer id;
     private String name;
@@ -16,7 +14,7 @@ public class User {
     }
 
     public String getName() {
-        return name.toString();
+        return name;
     }
 
     public static void main(String[] args) {
@@ -24,8 +22,5 @@ public class User {
     }
 
     // 请在这里覆盖toString方法，使得在打印用户时能将用户的id和name打印出来
-    @Override
-    public String toString() {
-        return this.id + this.name;
-    }
+
 }
