@@ -22,7 +22,7 @@ public class User {
     }
     @Override
     public String toString() {
-        return "Usre{"
+        return "Usre{ "
                 + "id:" + id
                 + ", name:'" + name + "\'"
                 + "}";
