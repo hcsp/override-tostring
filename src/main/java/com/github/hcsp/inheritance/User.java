@@ -9,7 +9,7 @@ public class User {
         this.name = name;
     }
 
-    public Integer getId()   {
+    public Integer getId() {
         return id;
     }
 
@@ -20,13 +20,7 @@ public class User {
     public static void main(String[] args) {
         System.out.println(new User(1, "user1"));
     }
-    @Override
-    public String toString() {
-        return "Usre{" +
-                "id:" + id +
-                ", name:'" + name + "\'" +
-                "}";
-    }
+
     // 请在这里覆盖toString方法，使得在打印用户时能将用户的id和name打印出来
 
 }
