@@ -22,7 +22,12 @@ public class User {
     }
 
     // 请在这里覆盖toString方法，使得在打印用户时能将用户的id和name打印出来
+
+    @Override
     public String toString() {
-        return "name:" + getName() + ",id:" + getId();
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
