@@ -9,13 +9,6 @@ public class User {
         this.name = name;
     }
 
-    public Integer getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
 
     public static void main(String[] args) {
         System.out.println(new User(1, "user1"));
@@ -25,9 +18,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                '}';
+        return "User{id=" + id + ", name=" + name + "}";
     }
 }
