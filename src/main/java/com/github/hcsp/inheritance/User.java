@@ -16,6 +16,11 @@ public class User {
     public String getName() {
         return name;
     }
+//
+    @Override
+    public String toString(){
+        return String.format("{User:%s,id:%s}",this.getName(),this.getId());
+    }
 
     public static void main(String[] args) {
         System.out.println(new User(1, "user1"));
