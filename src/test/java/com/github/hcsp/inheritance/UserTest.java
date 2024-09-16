@@ -21,4 +21,20 @@ public class UserTest {
         Assertions.assertTrue(
                 ProjectSourceFileReader.readAsString(User.class).contains("@Override"));
     }
+
+    @Test
+    void getId() {
+    }
+
+    @Test
+    void getName() {
+    }
+
+    @Test
+    void main() {
+    }
+
+    @Test
+    void testToString() {
+    }
 }
